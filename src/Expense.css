@@ -1,0 +1,52 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+.expenseItem {
+    position: relative;
+    top: 100px;
+    left: -50px;
+    justify-content: center;
+    width: 1150px;
+    height: 140px;
+    margin: 5px;
+    float: right;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: purple;
+    display: block;
+    overflow: hidden;
+}
+.title {
+    /* display: flex; */
+    float: right;
+    width: 100px;
+    position: relative;
+    left: -150px;
+    display: block;
+    margin-bottom: 350px;
+    text-align: right;
+    text-transform: capitalize;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.price {
+    /* display: flex; */
+    margin: -10px -0px;
+    margin-top: -30px;
+    position: relative;
+    left: -30px;
+    top: -10px;
+    float: right;
+    margin-bottom: 350px;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.expenseDate {
+    position: relative;
+    margin-top: 15px;
+    padding: 0;
+    left: 20px;
+}
